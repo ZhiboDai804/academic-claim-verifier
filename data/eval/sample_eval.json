@@ -1,0 +1,50 @@
+[
+  {
+    "id": "demo_supported_001",
+    "claim": "Model A achieved 82% accuracy on Dataset X.",
+    "label": "SUPPORTED",
+    "expected_evidence": [],
+    "review_status": "DEMO_PLACEHOLDER_REQUIRES_MANUAL_REVIEW",
+    "notes": "Demo-only schema fixture. Replace with a claim and source page manually reviewed against uploaded papers."
+  },
+  {
+    "id": "demo_supported_002",
+    "claim": "Retrieval augmentation reduced unsupported factual generations in the evaluated setting.",
+    "label": "SUPPORTED",
+    "expected_evidence": [],
+    "review_status": "DEMO_PLACEHOLDER_REQUIRES_MANUAL_REVIEW",
+    "notes": "Demo-only schema fixture; no paper or page is asserted."
+  },
+  {
+    "id": "demo_partial_001",
+    "claim": "Model A significantly outperformed Model B on all evaluated datasets.",
+    "label": "PARTIALLY_SUPPORTED",
+    "expected_evidence": [],
+    "review_status": "DEMO_PLACEHOLDER_REQUIRES_MANUAL_REVIEW",
+    "notes": "Demo-only broad-claim example requiring manual evidence review."
+  },
+  {
+    "id": "demo_partial_002",
+    "claim": "The method consistently improved accuracy across scientific domains.",
+    "label": "PARTIALLY_SUPPORTED",
+    "expected_evidence": [],
+    "review_status": "DEMO_PLACEHOLDER_REQUIRES_MANUAL_REVIEW",
+    "notes": "Demo-only scope-qualifier example requiring manual evidence review."
+  },
+  {
+    "id": "demo_unsupported_001",
+    "claim": "Model A reduced hallucination by exactly 50%.",
+    "label": "UNSUPPORTED",
+    "expected_evidence": [],
+    "review_status": "DEMO_PLACEHOLDER_REQUIRES_MANUAL_REVIEW",
+    "notes": "Demo-only numerical-claim example requiring manual evidence review."
+  },
+  {
+    "id": "demo_unsupported_002",
+    "claim": "The method is state-of-the-art on every legal QA benchmark.",
+    "label": "UNSUPPORTED",
+    "expected_evidence": [],
+    "review_status": "DEMO_PLACEHOLDER_REQUIRES_MANUAL_REVIEW",
+    "notes": "Demo-only superlative/scope example requiring manual evidence review."
+  }
+]

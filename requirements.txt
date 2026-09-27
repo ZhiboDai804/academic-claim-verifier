@@ -1,0 +1,9 @@
+streamlit
+pymupdf
+openai
+# Needed when OPENAI_API_KEY calls use a SOCKS proxy from the host environment.
+socksio
+chromadb
+pydantic>=2
+python-dotenv
+pytest

@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# Local application data
+data/papers/*
+!data/papers/.gitkeep
+data/chroma/*
+!data/chroma/.gitkeep
+data/eval/error_analysis.json
+
+# Streamlit secrets and common editor files
+.streamlit/secrets.toml
+.idea/
+.vscode/
